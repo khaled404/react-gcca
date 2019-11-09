@@ -1,0 +1,32 @@
+.sponsers-section{
+    padding: 80px 0 70px;
+    @media (max-width:480px) {
+        padding: 50px 0 60px;
+        
+    }
+    .sponsers-containrt{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        img{
+            max-width: 100%;
+            display: block;
+        }
+    }
+    .owl-stage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .item{
+            a{
+                display: block;
+                width: max-content;
+                margin: auto;
+                img{
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

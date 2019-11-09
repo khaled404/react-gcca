@@ -1,0 +1,155 @@
+.range-section{
+    padding: 214px 0 133px;
+    text-align: center;
+    @media (max-width:991px) {
+        padding: 130px 0 50px;
+        
+    }
+    h2{
+        font-size: 26px;
+        color: rgb(182, 42, 131);
+        font-family: "ITC-MEDIUM";
+        width: 70%;
+        margin: auto;
+        margin-bottom: 70px;
+        @media (max-width:991px) {
+            width: 100%;
+            margin-bottom: 50px;
+            
+        }
+    
+    }
+    .flags{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        @media (max-width:480px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .flag{
+            width: 25%;
+            position: relative;
+            cursor: pointer;
+            margin-bottom: 50px;
+            h3{
+                font-size: 18px;
+                font-family: "ITC-MEDIUM";
+                color: rgb(63, 63, 63);
+                margin: 0;
+                margin-top: 20px;
+            }
+            @media (max-width:480px) {
+                width: 100%;
+            }
+
+            .flag-list{
+                position: absolute;
+                top: 113%;
+                right: 16%;
+                display: flex;
+                background-color: rgba(255, 255, 255,0.969);
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+                width: max-content;
+                padding: 10px 3px 10px 20px;
+                height: 273px;
+                z-index: 3;          
+                text-align: right;
+                border-bottom: 3px solid  rgb(214, 72, 153);
+                transition: .5s;
+                opacity: 0;
+                visibility: hidden;
+                transform: scaleY(0)  translateX(10%);
+                transform-origin: top;
+                @media (max-width:991px) {
+                    flex-direction: column;
+                    overflow-y: auto;
+                    right: 0;
+
+                }
+                @media (max-width:480px) {
+                    right: 29%;
+
+                }
+                @media (max-width:425px) {
+                    right: 25%;
+
+                }
+                @media (max-width:375px) {
+                    right: 22%;
+                }
+                @media (max-width:320px) {
+                    right: 18%;
+                }
+        
+                ul{
+                    list-style: none;
+                    margin: 0;
+                    padding-inline-start:   17px;
+                    li{
+                        font-size: 15px;
+                        color: rgb(63, 63, 63);
+                        &:not(:last-of-type){
+                            border-bottom: 1px solid rgb(235, 235, 235);
+                        }
+                        width: 150px;
+                        padding: 9px 13px;
+                    }
+                }
+            }
+            @media (min-width:992px) {
+                
+                &:nth-child(2) .flag-list{
+                    right: 0;
+    
+                }
+                &:nth-child(3) .flag-list{
+                    right: -70%;
+    
+                }
+                &:nth-child(4) .flag-list{
+                    right: -140%;
+    
+                }
+                &:nth-child(6) .flag-list{
+                    right: -20%;
+    
+                }
+                &:nth-child(7) .flag-list{
+                    right: -100%;
+    
+                }
+            }
+            @media (min-width:992px) and (max-width:1024px) {
+                .flag-list{
+                    right: 0;    
+                }
+                &:nth-child(3) .flag-list{
+                    right: -100%;
+    
+                }
+                &:nth-child(4) .flag-list{
+                    right: -200%;
+    
+                }
+                &:nth-child(6) .flag-list{
+                    right: -50%;
+    
+                }
+                &:nth-child(7) .flag-list{
+                    right: -150%;
+    
+                }
+    
+            }
+            &:hover{
+                .flag-list{
+                    opacity:1 ;
+                    visibility: visible;
+                    transform: scaleY(1)  translateX(0);
+        
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.viduesbage-section{
+    padding: 140px 0 70px ;
+    @media (max-width:991px) {
+        padding: 100px 0 50px ;
+    }
+
+    .vidue-con{
+        margin-top: 30px;
+        @media (max-width:991px) {
+            text-align: center;
+        }
+    }
+}

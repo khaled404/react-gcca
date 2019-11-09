@@ -1,0 +1,31 @@
+.activites-section{
+    padding: 152px 0 60px;
+    @media (max-width:991px) {
+        padding: 100px 0 50px ;
+        
+    }
+    .act-con{
+        margin-top: 40px;
+        @media (max-width:991px) {
+            text-align: center;
+            margin-top: 40px;
+
+        }
+    }
+    h2{
+        font-size: 22px;
+        color: rgb(63, 63, 63);
+        font-family: "ITC-MEDIUM";
+        margin: auto;
+        margin-top: 25px;
+        width: 93%;
+        @media (max-width:991px) {
+            width: 75%;
+        }
+        @media (max-width:480px) {
+            font-size: 19px;
+            width: 100%;
+
+        }
+    }
+}

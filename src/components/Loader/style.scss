@@ -1,0 +1,51 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(#9f227d , #71236a);
+    z-index: 5000;
+    svg{
+        position: relative;
+        width:150px;
+        height:150px;
+        animation: roader 2s linear infinite;
+        circle{
+            width: 100%;
+            height: 100%;
+            fill: none;
+            stroke: #c244a0;
+            stroke-linecap: round;
+            transform: translate(5px,5px);
+            stroke-dasharray: 440;
+            stroke-dashoffset: 440;
+            animation: roader2 4s linear infinite;
+
+        }
+    }
+}
+@keyframes roader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    
+    }
+    
+}
+@keyframes roader2{
+    0%,100%{
+        stroke-dashoffset: 440;
+    }
+    50%{
+        stroke-dashoffset: 0;
+    }
+    50.1%{
+        stroke-dashoffset: 880;
+    }
+}

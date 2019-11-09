@@ -1,0 +1,85 @@
+.organizers-section{
+    padding: 80px 0 125px;
+    @media (max-width:991px) {
+        padding: 0 0 50px;
+        
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        @media (max-width:991px) {
+            flex-wrap: wrap;
+            text-align: center;
+            
+        }
+        @media (max-width:375px) {
+            .logos-top{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    display: flex;
+                    // margin: auto;
+                }
+            }
+        }    
+
+        &:not(:last-of-type){
+            margin-bottom: 46px;
+            @media (max-width:991px) {
+                margin-bottom: 20px;
+            }
+            @media (max-width:375px) {
+                margin-bottom: 0;
+            }
+            
+        }
+        h2{
+            font-size: 20px;
+            color: rgb(63, 63, 63);
+            font-family: "ITC-BOLD";   
+            margin-bottom: 20px;           
+        }
+        img{
+            max-width: 100%;
+            @media (max-width:375px) {
+                display: block;
+                margin: auto;
+                margin-bottom: 30px;
+            }    
+        }
+        .logos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media (max-width:991px) {
+                flex-wrap: wrap;
+                text-align: center;
+            }    
+            a:not(:first-child){
+                margin-right: 30px;
+                @media (max-width:991px) {
+                    margin-bottom: 30px;
+                }    
+
+            }
+            a:last-child{
+                @media (max-width:320px) {
+                    margin-right: 0;
+                }    
+
+            }
+            
+        }
+    }
+}
+.participants-section .organizers-section{
+    padding: 200px 0 90px; 
+    @media (max-width:991px) {
+        padding:150px 0 50px;
+    }
+}

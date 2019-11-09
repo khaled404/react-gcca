@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "ITC-REGULAR";
+  src: url("fonts/ITC-REGULAR.OTF");
+}
+@font-face {
+  font-family: "ITC-MEDIUM";
+  src: url("fonts/ITC-MEDIUM.OTF");
+}
+@font-face {
+  font-family: "ITC-HEAVY";
+  src: url("fonts/ITC-HEAVY.OTF");
+}
+@font-face {
+  font-family: "ITC-BOLD";
+  src: url("fonts/ITC-BOLD.OTF");
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("fonts/OpenSans.ttf");
+}
+body {
+  direction: rtl;
+  font-family: "ITC-REGULAR";
+  text-align: right;
+  // overflow-X: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+.main-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  a{
+    span{
+      display: block;
+      height: max-content;
+      margin: auto;
+    }
+    margin-left: 25px;
+    @media (max-width:991px) {
+      margin-left: 0;
+    }
+    display: flex;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px solid rgb(237, 237, 237);
+    width: 170px;
+    height: 51px;
+    font-size: 16px;
+    font-family: "ITC-MEDIUM";
+    color: rgb(204, 204, 204);
+    transition: .5s;
+    &:hover{
+      background-color: rgb(182, 42, 131);
+      color: #fff;
+      animation: point 1s alternate;
+      border-color: rgb(182, 42, 131);
+    }
+    &:active{
+      animation: point 1s alternate-reverse;
+
+    }
+  }
+}

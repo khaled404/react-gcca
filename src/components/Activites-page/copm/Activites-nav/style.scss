@@ -1,0 +1,57 @@
+.activites-nav{
+    .actnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding-inline-start: 0;
+        margin-bottom: 90px;
+        @media (max-width:991px) {
+            margin-bottom: 60px;
+        }
+        li{
+            &:not(:last-of-type){
+                margin-left: 6px;
+            }
+            a{
+                text-decoration: none;
+                color: #cccccc;
+                display: flex;
+                align-items: center;
+                justify-content: center;              
+                width: 100%;
+                height: 100%;
+                transition: .5s;
+                border: 2px solid rgb(237, 237, 237);
+                border-radius: 50%;
+                &.active{
+                    color: #d64899;
+                    border: 2px solid #d64899;
+                 
+                }
+                &:hover{
+                    color: #d64899;
+                    border: 2px solid #d64899;
+                }
+            }
+            &.more{
+                border: 2px solid rgb(237, 237, 237);
+                border-radius: 50%;
+                color: #cccccc;
+                display: flex;
+                align-items: center;
+                justify-content: center;              
+                cursor: pointer;
+                transition: .5s;
+                &:hover{
+                    color: #d64899;
+                    border: 2px solid #d64899;
+                }
+            }
+            width: 51px;
+            height: 51px;
+
+        }
+    }
+}
