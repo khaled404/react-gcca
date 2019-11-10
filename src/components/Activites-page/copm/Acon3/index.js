@@ -11,7 +11,7 @@ class Activites1 extends Component{
                             <Fade>
                                 <div className="act-con">
                                     <div className="imag-con ">
-                                        <Tilt options={{ scale:1 }} >
+                                        <Tilt options={{ scale:1, max:10 }} >
                                             <img src={require('../../../../images/activites3.png')} className="img-fluid" alt="img"/>
                                         </Tilt>
                                     </div>
@@ -23,7 +23,7 @@ class Activites1 extends Component{
                             <Fade>
                                 <div className="act-con">
                                     <div className="imag-con ">
-                                        <Tilt options={{ scale:1 }} >
+                                        <Tilt options={{ scale:1, max:10 }} >
                                             <img src={require('../../../../images/activites4.png')} className="img-fluid" alt="img"/>
                                         </Tilt>
                                     </div>
@@ -35,7 +35,7 @@ class Activites1 extends Component{
                             <Fade>
                                 <div className="act-con">
                                     <div className="imag-con ">
-                                        <Tilt options={{ scale:1 }} >
+                                        <Tilt options={{ scale:1, max:10 }} >
                                             <img src={require('../../../../images/activites5.png')} className="img-fluid" alt="img"/>
                                         </Tilt>
                                     </div>

@@ -12,7 +12,7 @@ class Vidue1 extends Component{
                             <Fade>
                                 <div className="vidue-con">
                                     <a  data-fancybox="youtube" href="https://www.youtube.com/watch?v=QYr6txK4lrg" className="fans">
-                                        <Tilt options={{ scale:1 }}>
+                                        <Tilt options={{ scale:1 , max:10 }}>
                                             <img src={require('../../../../images/video.jpg')} className="img-fluid" alt="slide img" />
                                         </Tilt>
                                     </a>
@@ -23,7 +23,7 @@ class Vidue1 extends Component{
                             <Fade>
                                 <div className="vidue-con">
                                     <a  data-fancybox="youtube" href="https://www.youtube.com/watch?v=QYr6txK4lrg" className="fans">
-                                        <Tilt options={{ scale:1 }}>
+                                        <Tilt options={{ scale:1 , max:10 }}>
                                             <img src={require('../../../../images/video2.jpg')} className="img-fluid" alt="slide img" />
                                         </Tilt>
                                     </a>
@@ -34,7 +34,7 @@ class Vidue1 extends Component{
                             <Fade>
                                 <div className="vidue-con">
                                     <a  data-fancybox="youtube" href="https://www.youtube.com/watch?v=QYr6txK4lrg" className="fans">
-                                        <Tilt options={{ scale:1 }}>
+                                        <Tilt options={{ scale:1 , max:10 }}>
                                             <img src={require('../../../../images/video3.jpg')} className="img-fluid" alt="slide img" />
                                         </Tilt>
                                     </a>
@@ -45,7 +45,7 @@ class Vidue1 extends Component{
                             <Fade>
                                 <div className="vidue-con">
                                     <a  data-fancybox="youtube" href="https://www.youtube.com/watch?v=QYr6txK4lrg" className="fans">
-                                        <Tilt options={{ scale:1 }}>
+                                        <Tilt options={{ scale:1 , max:10 }}>
                                             <img src={require('../../../../images/video4.jpg')} className="img-fluid" alt="slide img" />
                                         </Tilt>
                                     </a>
