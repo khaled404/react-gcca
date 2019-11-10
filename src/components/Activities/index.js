@@ -19,7 +19,7 @@ const Activities = () =>{
           <div className="act-con">
           <div className="row">
               <div className="col-lg-6  order-lg-1 order-2">
-                <Tilt options={{ scale:1 }} >
+                <Tilt options={{ scale:1 , max:10 }} >
                   <div className="image-con">
                     <Slide bottom delay={400}>
                       <img src={require('../../images/activities1.png')} alt="activities img" className="img-fluid"/>
@@ -47,7 +47,7 @@ const Activities = () =>{
                 </div>
               </div>
               <div className="col-lg-6">
-                <Tilt options={{ scale:1 }} >
+                <Tilt options={{ scale:1 , max:10 }} >
                   <div className="image-con center">
                     <Slide bottom>
                       <img src={require('../../images/activities2.png')} alt="activities img" className="img-fluid" />
@@ -58,7 +58,7 @@ const Activities = () =>{
             </div>
             <div className="row">
               <div className="col-lg-6 order-lg-1 order-2">
-                <Tilt options={{ scale:1 }} >
+                <Tilt options={{ scale:1 , max:10 }} >
                   <div className="image-con">
                     <Slide bottom>
                       <img src={require('../../images/activities3.png')} alt="activities img" className="img-fluid"/>

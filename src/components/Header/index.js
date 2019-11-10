@@ -30,7 +30,7 @@ const Header = () =>{
             <div className="col-lg-6">
               <RubberBand mountOnEnter>
                 <div className="vidue">
-                  <Tilt options={{ scale:1 }} >
+                  <Tilt options={{ scale:1 , max:10}} >
                     <a  data-fancybox="youtube" href="https://www.youtube.com/watch?v=QYr6txK4lrg" className="fans">
                       <img src={require('../../images/video.jpg')} className="img-fluid" alt="slide img" />
                     </a>
