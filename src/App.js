@@ -18,6 +18,7 @@ class App extends Component{
         <Loader/>
         <Nav />
         <Route exact path="/" component={Index}/>
+        <Route exact path="react-gcca/" component={Index}/>
         <Route path="/about" component={Apout} />
         <Route path="/range" component={Range} />
         <Route path="/participants" component={Participants} />
