@@ -22,10 +22,10 @@ class Videos extends Component{
             stagePadding: 200,
         },
         992:{
-          stagePadding: 300,
+          stagePadding: 350,
         },
         1200:{
-          stagePadding: 350,
+          stagePadding: 340,
         },
         1500:{
           stagePadding: 550,
