@@ -59,19 +59,9 @@
             @media (max-width:991px) {
                 flex-wrap: wrap;
                 text-align: center;
-            }    
-            a:not(:first-child){
-                margin-right: 30px;
-                @media (max-width:991px) {
-                    margin-bottom: 30px;
-                }    
-
             }
-            a:last-child{
-                @media (max-width:320px) {
-                    margin-right: 0;
-                }    
-
+            a{
+                padding: 10px;
             }
             
         }

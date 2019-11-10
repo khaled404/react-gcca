@@ -58,17 +58,41 @@
     ul{
         margin: 0;
         padding-inline-start: 0;
+        transition: .5s;
 
         li{
             margin-bottom: 15px;
             opacity: 0;
             transform: translateX(50px);
             transition: all .5s;
-
-            a{
+            a,span{
                 color: #fff;
                 font-size: 20px;
                 text-decoration: none;
+            }
+            ul{
+                list-style: none;
+                height: 0;
+                transform: scaleY(0);
+                transform-origin: bottom;
+                opacity: 0;
+                visibility: hidden;
+                transition: .5s;
+                li{
+                    margin-bottom: 7px;
+
+                    a{
+                        color: rgba(#fff,.7);
+                        font-size: 17px;
+                    }
+                }
+            }
+            &.active ul{
+                transform: scaleY(1);
+                opacity: 1;
+                visibility: visible;
+                height: auto;
+
             }
         }
     }
