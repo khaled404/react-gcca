@@ -2,7 +2,6 @@ import React , {Component} from 'react';
 import './style.scss';
 import {Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel2';
-import 'owl.carousel/dist/assets/owl.carousel.css';
 import classnames from "classnames";
 import Rotate from 'react-reveal/Rotate';
 import Bounce from 'react-reveal/Bounce';

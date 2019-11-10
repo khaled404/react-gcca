@@ -2,7 +2,6 @@
 import React, { Component, Fragment } from 'react';
 import './style.scss';
 import OwlCarousel from 'react-owl-carousel2';
-import 'owl.carousel/dist/assets/owl.carousel.css';
 import Rotate from 'react-reveal/Rotate';
 
 class Sponsers extends Component {

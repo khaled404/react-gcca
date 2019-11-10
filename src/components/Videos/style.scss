@@ -2,7 +2,7 @@
     text-align: center;
     position: relative;
     background-color: rgb(159, 34, 125);
-    padding: 166px 0;
+    padding: 166px 0 140px;
     overflow: hidden;
     @media (max-width:991px) {
         padding: 100px 0;
@@ -71,6 +71,7 @@
     } 
     .main-btn{
         a{
+            margin-top: 50px;
             border-color: rgb(174, 48, 140);
             color: rgb(194, 68, 160);
             &:hover{
