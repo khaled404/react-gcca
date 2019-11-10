@@ -78,9 +78,9 @@ class Navpar extends Component{
                 <li className="mainLink"><NavLink exact  to="/">الرئيسية</NavLink ></li>
                 <li className="mainLink sub-con"><NavLink  to="/about">عن الحملة</NavLink>
                   <ul className="sub-links">
-                    <li><Link to="/">حملة 2016</Link></li>
-                    <li><Link to="/">حملة 2017</Link></li>
-                    <li><Link to="/">حملة 2018</Link></li>
+                    <li><Link to="/2016">حملة 2016</Link></li>
+                    <li><Link to="/2017">حملة 2017</Link></li>
+                    <li><Link to="/2018">حملة 2018</Link></li>
                   </ul>
                 </li>
                 <li className="mainLink"><NavLink to="/range">نطاق الحملة</NavLink></li>

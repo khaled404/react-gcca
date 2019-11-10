@@ -76,12 +76,121 @@
             margin-right: 4px;
         }
         li{
-
-            transition: .5s;
-            &:hover{
-                transform: skew(5deg) scale(1.1);
+            a{
+                text-decoration: none;
             }
-        }
+            .icon{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 50px;
+                color: #FFF;
+                transition: .5s;
+                font-size: 16px;
+                background-color: #000;
+                position: relative;
+            }
+            .instagram{
+                background: radial-gradient(circle farthest-corner at 35% 100%,#fec564,transparent 50%),radial-gradient(circle farthest-corner at 10% 140%,#feda7e,transparent 50%),radial-gradient(ellipse farthest-corner at 0 -25%,#5258cf,transparent 50%),radial-gradient(ellipse farthest-corner at 20% -50%,#5258cf,transparent 50%),radial-gradient(ellipse farthest-corner at 100% 0,#893dc2,transparent 50%),radial-gradient(ellipse farthest-corner at 60% -20%,#893dc2,transparent 50%),radial-gradient(ellipse farthest-corner at 100% 100%,#d9317a,transparent),linear-gradient(#6559ca,#bc318f 30%,#e42e66 50%,#fa5332 70%,#ffdc80 100%);
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background: radial-gradient(circle farthest-corner at 35% 100%,#fec564,transparent 50%),radial-gradient(circle farthest-corner at 10% 140%,#feda7e,transparent 50%),radial-gradient(ellipse farthest-corner at 0 -25%,#5258cf,transparent 50%),radial-gradient(ellipse farthest-corner at 20% -50%,#5258cf,transparent 50%),radial-gradient(ellipse farthest-corner at 100% 0,#893dc2,transparent 50%),radial-gradient(ellipse farthest-corner at 60% -20%,#893dc2,transparent 50%),radial-gradient(ellipse farthest-corner at 100% 100%,#d9317a,transparent),linear-gradient(#6559ca,#bc318f 30%,#e42e66 50%,#fa5332 70%,#ffdc80 100%);
+                    transform: scale(0);
+                    transition: .5s;
+                    z-index: -1;
+                }
+            }
+            .youtube{
+                background-color: #ce201f;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background-color: #ce201f;
+                    transform: scale(0);
+                    transition: .5s;
+                    z-index: -1;
+                }
+
+            }
+            .twitter{
+                background-color: #2aa9e0;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background-color: #2aa9e0;
+                    transform: scale(0);
+                    transition: .7s;
+                    z-index: -1;
+                }
+
+            }
+            .facebook{
+                background-color: #3b559f;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background-color: #3b559f;
+                    transform: scale(0);
+                    transition: .7s;
+                    z-index: -1;
+                }
+
+            }
+            &:hover{
+                .instagram{
+                    &::before{
+                        transform: scale(1.5);
+                        opacity: 0;
+                    }
+                }
+                .youtube{
+                    &::before{
+                        transform: scale(1.5);
+                        opacity: 0;
+                    }
+
+                }
+                .twitter{
+                    &::before{
+                        transform: scale(1.5);
+                        opacity: 0;
+                    }
+
+                }
+                .facebook{
+                    &::before{
+                        transform: scale(1.5);
+                        opacity: 0;
+                    }
+
+                }
+    
+            }
+        }        
     }
     .footer-copy{
         display: flex;

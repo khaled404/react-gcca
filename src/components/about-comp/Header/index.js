@@ -20,7 +20,7 @@ const Header = () =>{
                     </div>
                     <div className="col-lg-6">
                         <RubberBand mountOnEnter delay={400}>
-                            <Tilt options={{ scale:1 }} >
+                            <Tilt options={{ scale:1 ,max:10}} >
                                 <img src={require('../../../images/about-header.png')} alt="about header" className="img-fluid"/>
                             </Tilt>
                         </RubberBand>

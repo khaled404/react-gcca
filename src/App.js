@@ -11,6 +11,9 @@ import News from './components/News-page/index';
 import Contact from './components/Contact';
 import Viduesbage from './components/Videos-page/index';
 import Loader from './components/Loader';
+import A2016 from './components/about-comp/about-activites/2016';
+import A2017 from './components/about-comp/about-activites/2017';
+import A2018 from './components/about-comp/about-activites/2018';
 class App extends Component{
   render(){
     return(
@@ -32,6 +35,9 @@ class App extends Component{
         <Route path="/vidues" component={Viduesbage} />
         <Route path="/vidues2" component={Viduesbage} />
         <Route path="/vidues3" component={Viduesbage} />
+        <Route path="/2016" component={A2016} />
+        <Route path="/2017" component={A2017} />
+        <Route path="/2018" component={A2018} />
         <Footer/>
       </BrowserRouter>
     )

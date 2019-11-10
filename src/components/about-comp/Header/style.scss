@@ -75,6 +75,7 @@
         position: relative;
         width: 100%;
         height: 120px;
+        padding-left: 10px; 
         @media (max-width:991px) {
             height: auto;
             padding: 20px;
@@ -94,7 +95,7 @@
             right: 0;
             bottom: 0;
             background-color: rgb(208, 61, 150);
-            width: 943px;
+            width: 953px;
             height: 100%;
             border-bottom-left-radius:  100px;
             border-top-left-radius:  100px;
@@ -117,6 +118,7 @@
     }
     .massage{
         height: 150px;
+        padding-left: 10px;
         @media (max-width:991px) {
             height: auto;
             padding: 20px;
@@ -138,7 +140,7 @@
             top: 0;
             right: 0;
             bottom: 0;
-            width: 1156px;
+            width: 1190px;
             background-color: rgb(159, 34, 125);
             height: 100%;
             border-bottom-left-radius:  100px;
@@ -220,4 +222,4 @@
         }
     }
 }
-  
+.a2000{padding-bottom: 50px; img{border-radius: 20px;}}
