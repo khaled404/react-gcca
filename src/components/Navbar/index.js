@@ -48,13 +48,13 @@ class Navpar extends Component{
                 <span></span>
             </button>
               <ul className="nav-links list-unstyled">
-                <li onClick={()=>{this.navtoggle()}}><Link to="/">الرئيسية</Link ></li>
-                <li onClick={()=>{this.navtoggle()}}><Link to="/about">عن الحملة</Link></li>
-                <li onClick={()=>{this.navtoggle()}}><Link to="/range">نطاق الحملة</Link></li>
-                <li onClick={()=>{this.navtoggle()}}><Link to="/participants">الجهات المشاركة</Link></li>
-                <li onClick={()=>{this.navtoggle()}}><Link to="/activites">الأنشطة التوعوية</Link></li>
-                <li onClick={()=>{this.navtoggle()}}><Link to="/news">المركز الإعلامي</Link></li>
-                <li onClick={()=>{this.navtoggle()}}><Link to="/contact">تواصل معنا</Link></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/">الرئيسية</Link ></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/about">عن الحملة</Link></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/range">نطاق الحملة</Link></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/participants">الجهات المشاركة</Link></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/activites">الأنشطة التوعوية</Link></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/news">المركز الإعلامي</Link></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to="/react-gcca/contact">تواصل معنا</Link></li>
               </ul>
           </div>
           {/* strat main nav */}
@@ -70,7 +70,7 @@ class Navpar extends Component{
                 </button>
               </div>
               <div className="logo">
-                <Link to="/">
+                <Link to="/react-gcca/">
                   <img src={require('../../images/logo.png')} alt="logo" name="logo" />
                 </Link>
               </div>
@@ -78,16 +78,16 @@ class Navpar extends Component{
                 <li className="mainLink"><NavLink exact  to="/">الرئيسية</NavLink ></li>
                 <li className="mainLink sub-con"><NavLink  to="/about">عن الحملة</NavLink>
                   <ul className="sub-links">
-                    <li><Link to="/">حملة 2016</Link></li>
-                    <li><Link to="/">حملة 2017</Link></li>
-                    <li><Link to="/">حملة 2018</Link></li>
+                    <li><Link to="/react-gcca/">حملة 2016</Link></li>
+                    <li><Link to="/react-gcca/">حملة 2017</Link></li>
+                    <li><Link to="/react-gcca/">حملة 2018</Link></li>
                   </ul>
                 </li>
-                <li className="mainLink"><NavLink to="/range">نطاق الحملة</NavLink></li>
-                <li className="mainLink"><NavLink to="/participants">الجهات المشاركة</NavLink></li>
-                <li className="mainLink"><NavLink to="/activites">الأنشطة التوعوية</NavLink></li>
-                <li className="mainLink"><NavLink to="/news">المركز الإعلامي</NavLink></li>
-                <li className="mainLink"><NavLink to="/contact">تواصل معنا</NavLink></li>
+                <li className="mainLink"><NavLink to="/react-gcca/range">نطاق الحملة</NavLink></li>
+                <li className="mainLink"><NavLink to="/react-gcca/participants">الجهات المشاركة</NavLink></li>
+                <li className="mainLink"><NavLink to="/react-gcca/activites">الأنشطة التوعوية</NavLink></li>
+                <li className="mainLink"><NavLink to="/react-gcca/news">المركز الإعلامي</NavLink></li>
+                <li className="mainLink"><NavLink to="/react-gcca/contact">تواصل معنا</NavLink></li>
               </ul>
               <div className="searh-torger">
                 <button onClick={()=>{this.setState({searhActive:true})}}><i className="fa fa-search"></i></button>
