@@ -1,9 +1,11 @@
 import React ,{Component} from 'react';
 import Fade from 'react-reveal/Fade';
+import Scroll from '../../../ScrollToTop';
 class news2 extends Component{
   render(){
         return(
             <div className="news-page">
+                <Scroll/>
                 <section className="news-section">
                     <div className="container">
                     <div className="row">

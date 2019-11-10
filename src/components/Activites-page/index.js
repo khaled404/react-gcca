@@ -4,10 +4,13 @@ import Activitesnav from './copm/Activites-nav';
 import Index1 from './copm/Acon1/index';
 import Index2 from './copm/Acon2/index';
 import Index3 from './copm/Acon3/index';
+import Scroll from '../ScrollToTop';
+
 class Activites extends Component{
   render(){
         return(
             <BrowserRouter>
+                <Scroll />
                 <Route exact path="/activites" component={Index1}/>
                 <Route path="/activites1" component={Index1}/>
                 <Route path="/activites2" component={Index2}/>

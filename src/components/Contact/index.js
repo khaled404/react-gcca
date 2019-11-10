@@ -2,10 +2,13 @@ import React ,{Component} from 'react';
 import Rotate from 'react-reveal/Rotate';
 import Bounce from 'react-reveal/Bounce';
 import './style.scss';
+import Scroll from '../ScrollToTop';
+
 class Contact extends Component{
   render(){
         return(
             <section className="contact-section">
+                <Scroll />
                 <div className="container">
                     <Rotate top right mountOnEnter>
                         <h2>يسعدنا دائما تواصلكم ومشاركتنا الأنشطة التوعوية</h2>

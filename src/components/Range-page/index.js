@@ -2,10 +2,12 @@ import React ,{Component} from 'react';
 import './style.scss';
 import Flip from 'react-reveal/Flip';
 import Tilt from 'react-tilt';
+import Scroll from '../ScrollToTop';
 class Range extends Component{
   render(){
     return(
       <section className="range-section">
+        <Scroll/>
           <div className="container">
               <div className="content">
                 <Flip top>

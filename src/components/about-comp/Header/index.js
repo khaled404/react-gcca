@@ -4,9 +4,11 @@ import Rotate from 'react-reveal/Rotate';
 import RubberBand from 'react-reveal/RubberBand';
 import Bounce from 'react-reveal/Bounce';
 import Tilt from 'react-tilt';
+import Scroll from '../../ScrollToTop';
 const Header = () =>{ 
     return(
         <header className="about-header">
+            <Scroll />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

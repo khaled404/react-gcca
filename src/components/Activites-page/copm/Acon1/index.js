@@ -2,10 +2,12 @@ import React ,{Component} from 'react';
 import './style.scss';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
+import Scroll from '../../../ScrollToTop';
 class Activites1 extends Component{
   render(){
         return(
             <section className="activites-section">
+                <Scroll/>
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6">

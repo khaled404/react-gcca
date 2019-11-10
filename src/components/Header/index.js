@@ -4,10 +4,11 @@ import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
 import RubberBand from 'react-reveal/RubberBand';
 import Tilt from 'react-tilt';
-
+import Scroll from '../ScrollToTop';
 const Header = () =>{ 
     return(
       <header className="main-header">
+        <Scroll />
         <img src={require('../../images/back1.png')} className="patrn" alt="patrn"/>
         <a href="#goals" className="scroll-header">
           <span></span>
