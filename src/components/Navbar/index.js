@@ -1,5 +1,5 @@
 import React, { Component , Fragment} from "react";
-import {Link, NavLink } from 'react-router-dom';
+import {Link, NavLink , withRouter} from 'react-router-dom';
 import classnames from "classnames";
 import './style.scss';
 class Navpar extends Component{
@@ -14,7 +14,7 @@ class Navpar extends Component{
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
   }
-
+  
   // Remove the event listener when the component is unmount.
   componentWillUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
@@ -56,12 +56,24 @@ class Navpar extends Component{
                 <span></span>
             </button>
               <ul className="nav-links list-unstyled">
-                <li onClick={()=>{this.navtoggle()}}><Link to="/">الرئيسية</Link ></li>
+                <li onClick={()=>{this.navtoggle()}}><Link to={{
+                  pathname: this.props.match.url +  "/",
+                  hash:"#home",
+                  search:"?home"
+                }}>الرئيسية</Link ></li>
                 <li className={classnames({"active":this.state.drob})} onClick={()=>{this.drpoList()}}>
                   <span>عن الحملة</span>
                   <ul>
-                    <li onClick={()=>{this.navtoggle()}}><Link to="/about">عن الحملة</Link></li>
-                    <li onClick={()=>{this.navtoggle()}}><Link to="/2016">حملة 2016</Link></li>
+                    <li onClick={()=>{this.navtoggle()}}><Link to={{
+                      pathname: this.props.match.url +  "/about",
+                      hash:"#about",
+                      search:"?quick-about=true"
+                    }}>عن الحملة</Link></li>
+                    <li onClick={()=>{this.navtoggle()}}><Link to={{
+                      pathname: this.props.match.url +  "/2016",
+                      hash:"#2016",
+                      search:"?quick-2016=true"
+                    }}>حملة 2016</Link></li>
                     <li onClick={()=>{this.navtoggle()}}><Link to="/2017">حملة 2017</Link></li>
                     <li onClick={()=>{this.navtoggle()}}><Link to="/2018">حملة 2018</Link></li>
                   </ul>
@@ -124,4 +136,4 @@ class Navpar extends Component{
     )
   }
 }
-export default Navpar;
+export default withRouter(Navpar);

@@ -19,8 +19,8 @@ const Footer = () =>{
               <div className="col-lg-6">
                 <div className="footer-links-con">
                   <ul className="list-unstyled footer-navlink">
-                    <li><Link exact  to="/">الرئيسية</Link ></li>
-                    <li><Link  to="/about">عن الحملة</Link></li>
+                    <li><Link to="/">الرئيسية</Link ></li>
+                    <li><Link to="/about">عن الحملة</Link></li>
                     <li><Link to="/range">نطاق الحملة</Link></li>
                   </ul>
                   <ul className="list-unstyled footer-navlink">
@@ -38,22 +38,22 @@ const Footer = () =>{
                 <ul className="list-unstyled footer-icons">
                 <li>
                     <a href="#">
-                      <div className="icon instagram"><i class="fab fa-instagram"></i></div>
+                      <div className="icon instagram"><i className="fab fa-instagram"></i></div>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <div className="icon youtube"><i class="fab fa-youtube"></i></div>
+                      <div className="icon youtube"><i className="fab fa-youtube"></i></div>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <div className="icon twitter"><i class="fab fa-twitter"></i></div>
+                      <div className="icon twitter"><i className="fab fa-twitter"></i></div>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <div className="icon facebook"><i class="fab fa-facebook-f"></i></div>
+                      <div className="icon facebook"><i className="fab fa-facebook-f"></i></div>
                     </a>
                   </li>
                 </ul>
