@@ -46,6 +46,7 @@ class Navpar extends Component{
 
   }
   render(){
+    console.log(this.props.match.url)
     return(
       <Fragment>
           <div className={classnames("phonenav",{
