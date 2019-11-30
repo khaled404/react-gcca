@@ -1,0 +1,172 @@
+{
+    "header" : [
+        {
+            "img" : "images/video.jpg",
+            "patrn" : "images/back1.png",
+            "titelAR" : "الحملة الخليجية للتوعية بالسرطان",
+            "titelEN" : "ssenerawA recnaC rof nigapmaC fluG",
+            "youtube" : "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        }
+    ],
+    "goalsTitel" : "أهداف الحملة",
+    "circle" : [
+        {
+            "id" : 1,
+            "body" : ["رفع مستوى الوعي" , "الصحي حول عوامل" , "الإختطار المؤدية للإصابة" , "بالسرطان"] 
+        },
+        {
+            "id" : 2,
+            "body" : ["تشجيع اتباع نمط" , "غذائي صحي وممارسة" , "النشااط البدني بين" , "جميع فئات المجتمع"]
+        },
+        {
+            "id" : 3,
+            "body" : ["رفع مستوى الوعي" , "الصحي حول طرق الكشف" , "المبكر عن السرطان وأهميتها" , "في تحسين فرص الشافاء"] 
+        }
+    ],
+
+    "square" : [
+        {
+            "id" : 1,
+            "count" : 100,
+            "body" : ["اشترك في الحملة العديد من الوزارات والإمارات" , "والجمعيات الأهلية والفرق التطوعية" , "والجامعات والمؤسسات التعليمية وقطاعات الصحة" , "الأهلية"]
+        },
+        {
+            "id" : 2,
+            "count" : 34,
+            "body" : ["يمتد نطاق الحملة إلي جميع عواصم دول مجلس" , "التعاون بالإضافة إلي العديد من المدن الأخري في" , "كبري البلاد العربية كالمملكة العربية السعودية" , "والإمارات العربية المتحدة"]
+        }
+    ],
+    "activitiesTitel" : "أهم أنشطة وفعاليات الحملة التوعوية",
+    "activitiesSubTitel" : "تجاوز عدد الأنشطة خلال الحملة 1000+ نشاط منها",
+    "activitiesContent": [
+        {
+            "id":1,
+            "img":"images/activities1.png",
+            "body":"تنفيذ أكثر من 580 ركن توعوي"
+        },
+        {
+            "id":2,
+            "img":"images/activities2.png",
+            "body":"تنفيذ العديد من الدورات التدريبية وورش العمل",
+            "subBody":"واللقاءات التوعوية في جميع المدن الخليجية"
+        },
+        {
+            "id":3,
+            "img":"images/activities3.png",
+            "body":"تنظيم أكثر من 18 ماراثون مشي ومسيرة",
+            "subBody":"للدراجات الهوائية وإسقاط مظلي"
+        }
+        
+    ],
+    "activitiesButton":"عرض المزيد",
+    "newsTitel":"آخر أخبار الحملة",
+    "newsContent":[
+        {
+            "id":1,
+            "img":"images/news1.png",
+            "dateNum": "17",
+            "date": "مارس",
+            "titel": "انطلاق الحملة الخليجية للتوعية بالسرطان 2017",
+            "body":"دشنت الحملة برعاية كريمة من صاحب السمو الملكي الأمير فيصل بن بندر بن عبدالعزيز أمير منطقة الرياض. واستمر تنفيذ أنشاطة الحملة تحت شعار 40*40 بناءً على الدرسات التي تشايى إلى"
+        },
+        {
+            "id":2,
+            "img":"images/news2.png",
+            "dateNum": "04",
+            "date": "ابريل",
+            "titel": "المؤتمر الخليجي المشترك الأول للسرطان",
+            "body":"نظم الاتحاد الخليجي لمكافحة السرطان بالتعاون مع المركز الخليجي لمكافحة السرطان المنبثق عن مجلس الصحة لدول مجلس التعاون المؤتمر الخليجي المشترك الأول للسرطان على مدى يومين في قاعة"
+        }
+    ],
+    "newsButton":"عرض المزيد",
+    "videosTitel":"الفيديوهات التوعوية",
+    "videosContent":[
+        {
+            "id":1,
+            "img":"images/video.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":2,
+            "img":"images/video2.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":3,
+            "img":"images/video3.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":4,
+            "img":"images/video4.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":5,
+            "img":"images/video.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":6,
+            "img":"images/video2.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":7,
+            "img":"images/video3.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        },
+        {
+            "id":8,
+            "img":"images/video4.jpg",
+            "youtube": "https://www.youtube.com/watch?v=QYr6txK4lrg"
+        }
+    ],
+    "videosButton":"عرض المزيد",
+    "sponsers":[
+        {
+            "id":1,
+            "img":"images/sponser1.png"
+        },
+        {
+            "id":2,
+            "img":"images/sponser2.png"
+        },
+        {
+            "id":3,
+            "img":"images/sponser3.png"
+        },
+        {
+            "id":4,
+            "img":"images/sponser4.png"
+        },
+        {
+            "id":5,
+            "img":"images/sponser5.png"
+        },
+        {
+            "id":6,
+            "img":"images/sponser6.png"
+        },
+        {
+            "id":7,
+            "img":"images/sponser7.png"
+        },
+        {
+            "id":8,
+            "img":"images/sponser8.png"
+        },
+        {
+            "id":9,
+            "img":"images/sponser9.png"
+        },
+        {
+            "id":10,
+            "img":"images/sponser10.png"
+        },
+        {
+            "id":11,
+            "img":"images/sponser11.png"
+        }
+    ]
+}
